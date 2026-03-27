@@ -1,0 +1,9 @@
+.skill-chip{
+display: flex;
+padding: 0.5rem var(--spacing-sm);
+align-items: center;
+gap: var(--spacing-sm);
+
+border-radius: 2.5rem;
+border: 1px solid var(--on-bg);
+}

@@ -1,0 +1,36 @@
+
+.link-button{
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+  letter-spacing: 0.1125rem;
+
+  color: var(--grey-400);
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+.link-button:hover{
+  color: var(--on-bg);
+}
+
+.link-button__icon{
+  width: 24px;
+  height: 24px;
+}
+
+.link-button__icon--right{
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.link-button:hover .link-button__icon--right{
+  opacity: 1;
+  transform: translateX(0);
+}

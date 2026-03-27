@@ -1,0 +1,43 @@
+.button{
+    display: inline-flex;
+    gap: 0.5rem;
+    padding:var(--spacing-sm);
+    align-items: center;
+    width: fit-content;
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    letter-spacing: 0.1125rem;
+    border: 0;
+    border-bottom: 2px solid transparent;
+}
+
+.button--primary{
+    border-radius: 1.5rem;
+    background: var(--grey-100);
+}
+
+.button--primary:hover{
+    background: var(--grey-200);
+}
+
+.button--secondary{
+    background: transparent;
+    border-radius: 0.125rem;
+}
+
+.button--secondary:hover{
+border-bottom: 2px solid var(--on-bg);
+}
+
+.button__icon{
+    width: 24px;
+    height: 24px;
+}
+
+.button--primary--floating{
+    position: fixed;
+
+    top:var(--spacing-lg);
+    right:var(--spacing-md)
+
+}
