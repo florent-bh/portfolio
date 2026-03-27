@@ -2,13 +2,15 @@
 
 @import url(base.css);
 
-@import url(css/components/button.css);
-@import url(css/components/list-card.css);
-@import url(css/components/link-button.css);
-@import url(css/components/option.css);
-@import url(css/components/skill-chip.css);
-@import url(css/components/project-card.css);
-@import url(css/layout.css);
+@import url(layout.css);
+
+@import url(components/button.css);
+@import url(components/list-card.css);
+@import url(components/link-button.css);
+@import url(components/option.css);
+@import url(components/skill-chip.css);
+@import url(components/project-card.css);
+
 
     
 :root{
