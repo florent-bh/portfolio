@@ -20,13 +20,12 @@
 --font-quote:"Cormorant Garamond";
 
 /* Colors */
---grey-100:hsla(0, 0%, 96%, 1);
---grey-200:hsla(240, 3%, 72%, 1) ;
---grey-400:hsla(233, 4%, 43%, 1);
+--grey-100:hsla(0, 0%, 95%, 1);
+--grey-200:hsla(240, 0%, 85%, 1) ;
+--grey-400:hsla(240, 0%, 40%, 1);
 --grey-700:hsla(0, 0%, 100%, 1);
---primary-100:hsla(231, 100%, 92%, 1);
---on-bg:hsla(222, 100%, 2%, 1);
-
+--on-bg:hsla(240, 100%, 2%, 1);
+--background-nav-mobile:hsla(0,0%,100%, 0.8);
 
 /* Font size */
 --font-size-title:clamp(2.5rem, 6vw, 8rem);

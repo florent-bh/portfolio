@@ -9,6 +9,7 @@
     letter-spacing: 0.1125rem;
     border: 0;
     border-bottom: 2px solid transparent;
+    color:var(--on-bg);
 }
 
 .button--primary{

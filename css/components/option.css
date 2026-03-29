@@ -33,5 +33,5 @@
 .option-mobile--active{
   background: var(--on-bg);
   text-decoration: underline;
-  color: #fff;
+  color: var(--grey-700);
 }

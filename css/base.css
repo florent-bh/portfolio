@@ -29,6 +29,10 @@ img {
   height: auto;
 }
 
+svg {
+  flex-shrink: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -48,6 +52,8 @@ body {
   font-family: Inter, sans-serif;
   font-size: var(--font-size-body);
   font-weight: 300;
+  color: var(--on-bg);
+  background-color: var(--grey-700);
 }
 
 p {
@@ -96,7 +102,7 @@ cite {
   font-family: var(--font-caption);
   font-size: var(--font-size-caption);
   font-weight: var(--font-weight-caption);
-  color: var(--grey-200);
+  color: var(--grey-400);
 }
 
 .list-text {
@@ -195,4 +201,16 @@ cite {
     opacity: 1;
   }
 
+}
+
+/* Mode sombre */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --grey-100:hsla(240, 0%, 12%, 1);
+        --grey-200:hsla(240, 0%, 20%, 1) ;
+        --grey-400:hsla(240, 0%, 60%, 1);
+        --grey-700:hsla(240, 0%, 8%, 1);
+        --on-bg:hsla(240, 100%, 98%, 1);
+        --background-nav-mobile:hsla(240, 0%, 8%, 0.8);
+    }
 }
