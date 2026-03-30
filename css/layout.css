@@ -99,7 +99,6 @@
 
 .section__list {
   display: flex;
-  width: 80%;
   flex-direction: column;
   gap: var(--spacing-lg);
 }
