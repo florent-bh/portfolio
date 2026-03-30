@@ -6,4 +6,9 @@ gap: var(--spacing-sm);
 
 border-radius: 2.5rem;
 border: 1px solid var(--on-bg);
+
+font-family: var(--font-caption);
+font-size: 0.875rem;
+color:var(--on-bg);
+font-size: var(--font-size-caption);
 }

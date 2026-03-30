@@ -111,6 +111,10 @@ cite {
   color: var(--grey-400);
 }
 
+.list-text li::marker {
+  font-size: 0.75rem;
+}
+
 
 /* Effet typing */
 
@@ -208,7 +212,7 @@ cite {
     :root {
         --grey-100:hsla(240, 3%, 11%, 1);
         --grey-200:hsla(240, 2%, 23%, 1) ;
-        --grey-300:hsla(240, 5%, 79%, 1);
+        --grey-300:hsla(240, 5%, 50%, 1);
         --grey-400:hsla(240, 3%, 69%, 1);
         --grey-700:hsla(240, 3%, 5%, 1);
         --on-bg:hsla(0, 0%, 100%, 1);
