@@ -149,9 +149,9 @@ cite {
 /* Confidentiel */
 
 .confidentiel {
-  color: red;
+  color: rgb(233, 21, 45);
   border-style: solid;
-  border-color: red 2px;
+  border-color: rgb(233, 21, 45) 2px;
   padding: var(--spacing-xs);
   font-weight: 400;
 }
@@ -206,12 +206,17 @@ cite {
 /* Mode sombre */
 @media (prefers-color-scheme: dark) {
     :root {
-        --grey-100:hsla(240, 0%, 12%, 1);
-        --grey-200:hsla(240, 0%, 20%, 1) ;
-        --grey-300:hsla(255, 100%, 100%, 0.8);
-        --grey-400:hsla(240, 0%, 60%, 1);
-        --grey-700:hsla(240, 0%, 8%, 1);
-        --on-bg:hsla(240, 100%, 98%, 1);
-        --background-nav-mobile:hsla(240, 0%, 8%, 0.8);
+        --grey-100:hsla(240, 3%, 11%, 1);
+        --grey-200:hsla(240, 2%, 23%, 1) ;
+        --grey-300:hsla(240, 5%, 79%, 1);
+        --grey-400:hsla(240, 3%, 69%, 1);
+        --grey-700:hsla(240, 3%, 5%, 1);
+        --on-bg:hsla(0, 0%, 100%, 1);
+        --background-nav-mobile:hsla(240, 3%, 5%, 0.8);
+    }
+
+    .confidentiel {
+        color: rgb(255, 97, 101);
+        border-color: rgb(255, 97, 101) 2px;
     }
 }
