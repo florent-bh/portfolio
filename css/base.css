@@ -102,7 +102,7 @@ cite {
   font-family: var(--font-caption);
   font-size: var(--font-size-caption);
   font-weight: var(--font-weight-caption);
-  color: var(--grey-400);
+  color: var(--grey-300);
 }
 
 .list-text {
@@ -208,6 +208,7 @@ cite {
     :root {
         --grey-100:hsla(240, 0%, 12%, 1);
         --grey-200:hsla(240, 0%, 20%, 1) ;
+        --grey-300:hsla(240, 0%, 40%, 1);
         --grey-400:hsla(240, 0%, 60%, 1);
         --grey-700:hsla(240, 0%, 8%, 1);
         --on-bg:hsla(240, 100%, 98%, 1);
