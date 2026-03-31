@@ -212,11 +212,11 @@ cite {
     :root {
         --grey-100:hsla(240, 3%, 11%, 1);
         --grey-200:hsla(240, 2%, 23%, 1) ;
-        --grey-300:hsla(240, 5%, 50%, 1);
-        --grey-400:hsla(240, 3%, 69%, 1);
+        --grey-300:hsla(240, 2%, 54%, 1);
+        --grey-400:hsla(240, 1%, 61%, 1);
         --grey-700:hsla(240, 3%, 5%, 1);
         --on-bg:hsla(0, 0%, 100%, 1);
-        --background-nav-mobile:hsla(240, 3%, 5%, 0.7);
+        --background-nav-mobile:hsla(240, 3%, 5%, 0.8);
     }
 
     .confidentiel {
