@@ -43,13 +43,13 @@
   display: none;
   align-items: center;
   justify-content: space-between;
-  padding: var(--spacing-lg);
+  padding: var(--spacing-xs);
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: var(--background-nav-mobile);
-  
+  backdrop-filter: blur(10px);
 }
 
 .navbar-mobile__list {
@@ -127,8 +127,7 @@
 .clients__grid img{
   max-width: 100%;
   height: auto;
-  filter: grayscale(100%);
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .clients__grid img:hover{

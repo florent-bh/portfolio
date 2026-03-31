@@ -178,7 +178,7 @@ cite {
   div.footer__copyright {
     display: flex;
     align-items: start;
-    min-height: 150px;
+    min-height: 110px;
   }
 
   .hero--animated {
@@ -216,7 +216,7 @@ cite {
         --grey-400:hsla(240, 3%, 69%, 1);
         --grey-700:hsla(240, 3%, 5%, 1);
         --on-bg:hsla(0, 0%, 100%, 1);
-        --background-nav-mobile:hsla(240, 3%, 5%, 0.8);
+        --background-nav-mobile:hsla(240, 3%, 5%, 0.7);
     }
 
     .confidentiel {

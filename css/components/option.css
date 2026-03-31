@@ -20,18 +20,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: var(--spacing-sm) var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-xs);
   border: 0;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   font-size: 0.6rem;
   letter-spacing: 0.1125rem;
   font-weight: var(--font-weight-button);
-  background: var(--grey-100);
   color: var(--on-bg);
 }
 
 .option-mobile--active{
   background: var(--on-bg);
-  text-decoration: underline;
   color: var(--grey-700);
 }
