@@ -26,7 +26,7 @@
 --grey-400:hsla(240, 2%, 44%, 1);
 --grey-700:hsla(0, 0%, 98%, 1);
 --on-bg:hsla(240, 3%, 12%, 1);
---background-nav-mobile:rgba(245, 245, 247, .8);
+--background-nav-mobile:rgba(245, 245, 247, .6);
 
 /* Font size */
 --font-size-title:clamp(2.5rem, 6vw, 8rem);

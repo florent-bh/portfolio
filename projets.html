@@ -398,54 +398,57 @@
     </footer>
 
     <!-- Menu de navigation mobile -->
-    <nav class="navbar-mobile">
-        <ul class="navbar-mobile__list">
-            <li><a class="option-mobile" href="index.html">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M5 12H3L12 3L21 12H19M5 12V19C5 19.5304 5.21071 20.0391 5.58579 20.4142C5.96086 20.7893 6.46957 21 7 21H17C17.5304 21 18.0391 20.7893 18.4142 20.4142C18.7893 20.0391 19 19.5304 19 19V12"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9 21V15C9 14.4696 9.21071 13.9609 9.58579 13.5858C9.96086 13.2107 10.4696 13 11 13H13C13.5304 13 14.0391 13.2107 14.4142 13.5858C14.7893 13.9609 15 14.4696 15 15V21"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    Accueil
-                </a>
-            </li>
-            <li><a aria-current="true" class="option-mobile option-mobile--active" href="projets.html">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M5 4H9L12 7H19C19.5304 7 20.0391 7.21071 20.4142 7.58579C20.7893 7.96086 21 8.46957 21 9V17C21 17.5304 20.7893 18.0391 20.4142 18.4142C20.0391 18.7893 19.5304 19 19 19H5C4.46957 19 3.96086 18.7893 3.58579 18.4142C3.21071 18.0391 3 17.5304 3 17V6C3 5.46957 3.21071 4.96086 3.58579 4.58579C3.96086 4.21071 4.46957 4 5 4Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    Projets
-                </a></li>
-            <li><a class="option-mobile" href="enseignement.html">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22 9L12 5L2 9L12 13L22 9ZM22 9V15" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M6 10.6001V16.0001C6 16.7957 6.63214 17.5588 7.75736 18.1214C8.88258 18.684 10.4087 19.0001 12 19.0001C13.5913 19.0001 15.1174 18.684 16.2426 18.1214C17.3679 17.5588 18 16.7957 18 16.0001V10.6001"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    Enseignement
-                </a></li>
-            <li><a class="option-mobile" href="contact.html">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M17.802 17.2918C17.802 17.2918 17.879 17.2368 18.002 17.1428C19.845 15.7178 21.002 13.6528 21.002 11.3538C21.002 7.06784 16.972 3.58984 12.002 3.58984C7.03201 3.58984 3.00201 7.06784 3.00201 11.3538C3.00201 15.6418 7.03201 18.9998 12.002 18.9998C12.426 18.9998 13.122 18.9718 14.09 18.9158C15.352 19.7358 17.194 20.4088 18.806 20.4088C19.305 20.4088 19.54 19.9988 19.22 19.5808C18.734 18.9848 18.064 18.0298 17.804 17.2908L17.802 17.2918Z"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M7.5 13.5C10 16 14 16 16.5 13.5" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    Contact
-                </a></li>
-        </ul>
-    </nav>
+    <div class="navbar-mobile-container">
+        <nav class="navbar-mobile">
+            <ul class="navbar-mobile__list">
+                <li><a class="option-mobile" href="index.html">
+                        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5 12H3L12 3L21 12H19M5 12V19C5 19.5304 5.21071 20.0391 5.58579 20.4142C5.96086 20.7893 6.46957 21 7 21H17C17.5304 21 18.0391 20.7893 18.4142 20.4142C18.7893 20.0391 19 19.5304 19 19V12"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9 21V15C9 14.4696 9.21071 13.9609 9.58579 13.5858C9.96086 13.2107 10.4696 13 11 13H13C13.5304 13 14.0391 13.2107 14.4142 13.5858C14.7893 13.9609 15 14.4696 15 15V21"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Accueil
+                    </a>
+                </li>
+                <li><a aria-current="true" class="option-mobile option-mobile--active" href="projets.html">
+                        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M5 4H9L12 7H19C19.5304 7 20.0391 7.21071 20.4142 7.58579C20.7893 7.96086 21 8.46957 21 9V17C21 17.5304 20.7893 18.0391 20.4142 18.4142C20.0391 18.7893 19.5304 19 19 19H5C4.46957 19 3.96086 18.7893 3.58579 18.4142C3.21071 18.0391 3 17.5304 3 17V6C3 5.46957 3.21071 4.96086 3.58579 4.58579C3.96086 4.21071 4.46957 4 5 4Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Projets
+                    </a></li>
+                <li><a class="option-mobile" href="enseignement.html">
+                        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 9L12 5L2 9L12 13L22 9ZM22 9V15" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M6 10.6001V16.0001C6 16.7957 6.63214 17.5588 7.75736 18.1214C8.88258 18.684 10.4087 19.0001 12 19.0001C13.5913 19.0001 15.1174 18.684 16.2426 18.1214C17.3679 17.5588 18 16.7957 18 16.0001V10.6001"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Enseignement
+                    </a></li>
+                <li><a class="option-mobile" href="contact.html">
+                        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.802 17.2918C17.802 17.2918 17.879 17.2368 18.002 17.1428C19.845 15.7178 21.002 13.6528 21.002 11.3538C21.002 7.06784 16.972 3.58984 12.002 3.58984C7.03201 3.58984 3.00201 7.06784 3.00201 11.3538C3.00201 15.6418 7.03201 18.9998 12.002 18.9998C12.426 18.9998 13.122 18.9718 14.09 18.9158C15.352 19.7358 17.194 20.4088 18.806 20.4088C19.305 20.4088 19.54 19.9988 19.22 19.5808C18.734 18.9848 18.064 18.0298 17.804 17.2908L17.802 17.2918Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M7.5 13.5C10 16 14 16 16.5 13.5" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Contact
+                    </a></li>
+            </ul>
+        </nav>
+    </div>
+
 
 </body>
 
