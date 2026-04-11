@@ -216,7 +216,7 @@ cite {
         --grey-400:hsla(240, 1%, 61%, 1);
         --grey-700:hsla(240, 3%, 5%, 1);
         --on-bg:hsla(0, 0%, 100%, 1);
-        --background-nav-mobile:hsla(240, 3%, 5%, 0.6);
+        --background-nav-mobile:hsla(0, 0%, 100%, 0.1);
     }
 
     .confidentiel {

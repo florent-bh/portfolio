@@ -44,7 +44,9 @@
   display: none;
   align-items: center;
   justify-content: space-between;
-  padding: var(--spacing-xs);
+  padding-bottom: var(--spacing-xs);
+  padding-left: var(--spacing-md);
+  padding-right: var(--spacing-md);
   position: fixed;
   bottom: 0;
   left: 0;
@@ -55,16 +57,13 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--spacing-xs);
-  width: 100%;
   background-color: var(--background-nav-mobile);
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(200%) blur(20px);
   border-radius: 1rem;
-
 }
 
 .navbar-mobile__list {
   display: flex;
-  width: 100%;
   justify-content: center;
   gap: var(--spacing-xs);
 }
