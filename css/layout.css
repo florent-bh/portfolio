@@ -43,23 +43,23 @@
 .navbar-mobile-container {
   display: none;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
   padding-bottom: var(--spacing-xs);
   padding-left: var(--spacing-md);
   padding-right: var(--spacing-md);
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
 }
 
 .navbar-mobile {
-  align-items: center;
-  justify-content: space-between;
+  display: flex;
   padding: var(--spacing-xs);
   background-color: var(--background-nav-mobile);
   backdrop-filter: saturate(200%) blur(20px);
   border-radius: 1rem;
+  box-shadow: 0 0px 2cap hsla(240, 2%, 44%, 0.1);
 }
 
 .navbar-mobile__list {

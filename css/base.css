@@ -187,6 +187,8 @@ cite {
 
   .navbar-mobile-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .clients__grid {
