@@ -55,6 +55,8 @@
 
 .navbar-mobile {
   display: flex;
+  width: 100%;
+  justify-content: center;
   padding: var(--spacing-xs);
   background-color: var(--background-nav-mobile);
   backdrop-filter: saturate(200%) blur(20px);
@@ -64,8 +66,12 @@
 
 .navbar-mobile__list {
   display: flex;
-  justify-content: center;
+  width: 100%;
   gap: var(--spacing-xs);
+}
+
+.navbar-mobile__list li {
+  flex: 1; /* Sur le <li>, enfant direct du flexbox */
 }
 
 .hero {
